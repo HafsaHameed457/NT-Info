@@ -103,3 +103,24 @@ It provides access to Node.js-specific features like __dirname, module, and proc
 | **Use Case**                   | Suitable for small, fast tasks that don't involve waiting (e.g., simple calculations). | Ideal for tasks that take time or require waiting (e.g., API requests, file I/O). |
 | **Flow Control**               | Executes sequentially, one after another.  | Tasks are initiated and their results handled later, usually with callbacks or promises. |
 
+## Asynchrnous callbacks or callbacks
+
+Asynchronous callbacks are functions that are passed as arguments to other functions and are executed after a certain task or event has completed. They allow JavaScript to handle tasks that take time (like reading files, making API requests, or handling user input) without blocking the execution of other code.
+
+## Multi-threading, Processes, and Threads in Computing
+
+- Multi-threading:
+Multi-threading refers to the ability of a CPU (Central Processing Unit) or a single core within a CPU to execute multiple threads concurrently. A thread is the smallest unit of a process that can be scheduled to run. Multi-threading enables tasks to be divided into smaller units (threads) that can run in parallel, improving efficiency, especially in multi-core processors.
+
+Example: Running multiple tasks like downloading a file, processing data, and updating the UI simultaneously in a program.
+
+- Process:
+A process is an instance of a program that is being executed. It has its own memory space, system resources, and at least one thread of execution. Processes are independent of each other and do not share memory space (unless using inter-process communication). Processes are typically more resource-intensive than threads.
+
+Example: When you open a browser, an instance of the browser program running is a process.
+
+- Thread:
+A thread is a smaller unit of a process that can run independently. Multiple threads within a process share the same memory space and resources, allowing them to communicate more easily and efficiently. Threads are lighter-weight compared to processes and are typically used to perform tasks concurrently within a process.
+
+Example: A web server process can have multiple threads to handle different client requests at the same time.
+
