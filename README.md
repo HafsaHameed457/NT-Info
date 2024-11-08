@@ -56,3 +56,17 @@ Deno is a secure runtime for JavaScript and TypeScript, created by the same deve
 4. Modern Features: It uses modern JavaScript and TypeScript features, with support for async/await, ES modules, and promises.
 
 5. Deno aims to provide a more secure, modern, and efficient environment for server-side JavaScript and TypeScript development.
+
+## Node vs Deno
+
+| Feature                      | **Node.js**                                    | **Deno**                                      |
+|------------------------------|------------------------------------------------|-----------------------------------------------|
+| **Runtime**                  | Runs JavaScript on the server (V8 engine)      | Runs JavaScript and TypeScript on the server (V8 engine) |
+| **Security**                 | No built-in security model, full access to OS | Secure by default, requires explicit permissions for file, network, and environment access |
+| **Package Management**       | Uses npm for managing packages and modules     | No package manager; imports modules directly via URLs |
+| **Modules**                  | Uses CommonJS (with experimental ES Modules)   | Fully supports ES Modules (import/export syntax) |
+| **TypeScript Support**       | Requires external tools like Babel or TypeScript compiler | Native support for TypeScript without configuration |
+| **API**                      | Rich set of APIs for file system, networking, etc. | Limited API (focused on security and modern JS features) |
+| **Single Executable**        | Requires Node.js installation and npm for modules | Distributed as a single executable with no external dependencies |
+| **Community and Ecosystem**  | Large ecosystem with millions of packages      | Smaller, newer ecosystem but growing quickly |
+| **Popularity**               | Well-established and widely used               | Newer, with growing interest in modern applications |
