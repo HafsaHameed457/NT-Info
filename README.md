@@ -70,3 +70,24 @@ Deno is a secure runtime for JavaScript and TypeScript, created by the same deve
 | **Single Executable**        | Requires Node.js installation and npm for modules | Distributed as a single executable with no external dependencies |
 | **Community and Ecosystem**  | Large ecosystem with millions of packages      | Smaller, newer ecosystem but growing quickly |
 | **Popularity**               | Well-established and widely used               | Newer, with growing interest in modern applications |
+
+
+## Global Object
+
+In JavaScript, the global object is an object that provides access to various global variables and functions. It acts as the top-level container for all variables and functions that are available in the global scope.
+
+### Global Object in Different Environments:
+- In a browser:
+
+The global object is window.
+It provides access to browser-specific features like document, localStorage, and console.
+javascript
+Copy code
+console.log(window); // The global object in browsers
+
+- In Node.js:
+
+The global object is global.
+It provides access to Node.js-specific features like __dirname, module, and process
+
+- Some global properties/functions in JavaScript, such as setTimeout, console, and Math, are part of the global object.
