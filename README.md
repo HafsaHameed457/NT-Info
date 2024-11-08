@@ -91,3 +91,15 @@ The global object is global.
 It provides access to Node.js-specific features like __dirname, module, and process
 
 - Some global properties/functions in JavaScript, such as setTimeout, console, and Math, are part of the global object.
+
+## Synchronous and Asynchronous
+
+| Feature                        | **Synchronous**                              | **Asynchronous**                              |
+|--------------------------------|---------------------------------------------|----------------------------------------------|
+| **Execution**                  | Tasks are executed one after another, in order. | Tasks are executed independently of the main thread. |
+| **Blocking**                   | Blocks further execution until the current task completes. | Does not block execution; other tasks can run while waiting. |
+| **Performance Impact**         | Can cause delays if a task takes time, as it blocks other tasks. | More efficient for time-consuming tasks (e.g., I/O operations). |
+| **Example**                    | `console.log('A'); console.log('B');`      | `setTimeout(() => console.log('A'), 1000); console.log('B');` |
+| **Use Case**                   | Suitable for small, fast tasks that don't involve waiting (e.g., simple calculations). | Ideal for tasks that take time or require waiting (e.g., API requests, file I/O). |
+| **Flow Control**               | Executes sequentially, one after another.  | Tasks are initiated and their results handled later, usually with callbacks or promises. |
+
