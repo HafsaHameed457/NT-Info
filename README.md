@@ -124,3 +124,20 @@ A thread is a smaller unit of a process that can run independently. Multiple thr
 
 Example: A web server process can have multiple threads to handle different client requests at the same time.
 
+## Node js vs Python vs PHP
+
+| Feature                        | **Node.js**                              | **PHP**                                       | **Python**                                   |
+|---------------------------------|------------------------------------------|-----------------------------------------------|----------------------------------------------|
+| **Runtime**                     | V8 JavaScript engine                     | PHP interpreter                               | Python interpreter                           |
+| **Primary Use Case**            | Server-side JavaScript execution         | Web development, server-side scripting        | General-purpose, web development, data science |
+| **Language**                    | JavaScript                               | PHP (Hypertext Preprocessor)                  | Python                                       |
+| **Concurrency Model**           | Non-blocking, Event-driven (single-threaded with async I/O) | Multi-threaded, synchronous                   | Multi-threaded, synchronous with async capabilities (asyncio) |
+| **Performance**                 | High performance, especially for I/O-intensive applications | Moderate, often slower for large-scale applications | High for computation-heavy tasks, moderate for I/O-intensive tasks |
+| **Package Management**          | npm (Node Package Manager)               | Composer (for PHP dependencies)               | pip (Python Package Index)                   |
+| **Community & Ecosystem**       | Large ecosystem with many JavaScript modules | Mature ecosystem, especially in web development | Large, with robust libraries for machine learning, data science, and web development |
+| **Learning Curve**              | Moderate (JavaScript knowledge required) | Easy (based on C-like syntax)                 | Easy to learn, highly readable syntax        |
+| **Support for Web Frameworks**  | Express.js, Koa.js, NestJS               | Laravel, Symfony, CodeIgniter                 | Django, Flask, FastAPI                       |
+| **Use in Full-Stack Development**| Popular in full-stack with JavaScript (MEAN, MERN stacks) | Common in LAMP stack (Linux, Apache, MySQL, PHP) | Used with Django or Flask for full-stack development |
+| **Best for**                    | Real-time applications, APIs, and I/O-intensive systems | Traditional web applications, content management systems | Web apps, data science, scripting, and automation |
+
+
