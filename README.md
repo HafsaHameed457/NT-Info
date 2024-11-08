@@ -140,4 +140,36 @@ Example: A web server process can have multiple threads to handle different clie
 | **Use in Full-Stack Development**| Popular in full-stack with JavaScript (MEAN, MERN stacks) | Common in LAMP stack (Linux, Apache, MySQL, PHP) | Used with Django or Flask for full-stack development |
 | **Best for**                    | Real-time applications, APIs, and I/O-intensive systems | Traditional web applications, content management systems | Web apps, data science, scripting, and automation |
 
+## Observer Pattern
+
+The Observer design pattern is a behavioral design pattern that defines a one-to-many dependency between objects. In this pattern, when the state of one object (called the subject) changes, all its dependent objects (called observers) are notified automatically. This is particularly useful in scenarios where multiple components need to stay in sync with a single data source or state.
+
+Real-World Example:
+A real-world example of the Observer pattern is a news agency and its subscribers:
+
+- The news agency (subject) has several subscribers (observers).
+- Whenever the news agency updates or publishes new content, all its subscribers are notified with the latest news.
+
+
+## Structure of Observer Pattern:
+Subject (or Observable): The object that maintains a list of observers and notifies them about changes to its state.
+Observer: The objects that need to be notified when the subject's state changes.
+ConcreteSubject: A specific implementation of the subject that notifies observers of state changes.
+ConcreteObserver: A specific implementation of the observer that reacts to the updates from the subject.
+
+## Event emitter in NODE js
+
+The EventEmitter class in Node.js is a core module that enables the event-driven programming model. It allows objects (often called "emitters") to emit events and have listeners (or "handlers") to respond to those events. It is used to handle asynchronous events and helps in creating flexible and modular systems where different parts of the application can react to specific events.
+
+#### code for events 
+
+const EventEmitter = require('events');
+
+const myEmitter = new EventEmitter();
+myEmitter.on('greet', () => {
+  console.log('Hello, world!');
+});
+
+myEmitter.emit('greet');  // Output: Hello, world!
+
 
