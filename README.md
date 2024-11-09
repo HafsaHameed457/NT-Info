@@ -177,3 +177,14 @@ myEmitter.emit('greet');  // Output: Hello, world!
 
 Modules in Node.js help organize code, reuse functionality, and avoid namespace conflicts. They allow you to split code into manageable parts, use built-in and third-party packages, and keep functions isolated to avoid conflicts.
 
+## Common js vs Ecma Script
+
+| Feature                     | CommonJS                        | ECMAScript Modules (ESM)       |
+|-----------------------------|---------------------------------|--------------------------------|
+| **Syntax**                  | `require()` and `module.exports`| `import` and `export`          |
+| **Loading**                 | Synchronous (loads at runtime) | Asynchronous (can be dynamic)  |
+| **File Extension**          | `.js`                           | `.mjs` (or `.js` if specified in `package.json`) |
+| **Usage**                   | Node.js and older JS environments | Modern JS environments, Node.js (v12.17 and above) |
+| **Default Exports**         | Single object as `module.exports`| `export default` for default exports |
+| **Scope**                   | Local scope, not in strict mode | Strict mode enabled by default |
+| **Node.js Support**         | Fully supported                 | Supported from Node.js v12.17+ |
