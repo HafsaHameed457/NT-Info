@@ -204,3 +204,22 @@ Subsequent Imports: Any subsequent require() calls for the same module will retu
 
 Performance: Avoids re-loading and re-executing the same module, improving performance.
 State Persistence: Modules can maintain state between multiple imports, as they are executed only once.
+
+## Semantic versioning
+
+Semantic Versioning (SemVer) is a versioning scheme used to indicate the nature of changes in a software project through version numbers
+
+1. MAJOR version (X.y.z):
+
+- Incremented when there are breaking changes or backward-incompatible changes in the API or behavior of the software.
+Example: If you remove or change an existing API method, the major version is increased.
+
+2. MINOR version (x.Y.z):
+
+- Incremented when new features or functionality are added in a backward-compatible manner.
+Example: Adding new API methods, new optional features, or non-breaking improvements to the software.
+
+3. PATCH version (x.y.Z):
+
+- Incremented when there are backward-compatible bug fixes or minor improvements that do not change the public API or behavior.
+Example: Fixing a bug, improving performance, or making small optimizations.
