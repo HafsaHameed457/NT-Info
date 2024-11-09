@@ -173,3 +173,7 @@ myEmitter.on('greet', () => {
 myEmitter.emit('greet');  // Output: Hello, world!
 
 
+## Why we use modules?
+
+Modules in Node.js help organize code, reuse functionality, and avoid namespace conflicts. They allow you to split code into manageable parts, use built-in and third-party packages, and keep functions isolated to avoid conflicts.
+
