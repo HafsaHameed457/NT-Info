@@ -188,3 +188,19 @@ Modules in Node.js help organize code, reuse functionality, and avoid namespace 
 | **Default Exports**         | Single object as `module.exports`| `export default` for default exports |
 | **Scope**                   | Local scope, not in strict mode | Strict mode enabled by default |
 | **Node.js Support**         | Fully supported                 | Supported from Node.js v12.17+ |
+
+
+## Module Caching
+
+
+Module Caching in Node.js refers to the behavior where Node.js caches modules after they are first loaded, to prevent the overhead of reloading and re-executing the same module multiple times during the execution of an application.
+
+### How Module Caching Works:
+
+First Import: When you require() a module for the first time, Node.js loads and executes it, and then stores the result in memory.
+Subsequent Imports: Any subsequent require() calls for the same module will return the cached version of the module, without re-executing its code.
+
+### Benefits of Module Caching:
+
+Performance: Avoids re-loading and re-executing the same module, improving performance.
+State Persistence: Modules can maintain state between multiple imports, as they are executed only once.
