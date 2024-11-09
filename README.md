@@ -223,3 +223,6 @@ Example: Adding new API methods, new optional features, or non-breaking improvem
 
 - Incremented when there are backward-compatible bug fixes or minor improvements that do not change the public API or behavior.
 Example: Fixing a bug, improving performance, or making small optimizations.
+
+
+Helps developers and users understand the significance of a version change. Is it a major update, minor feature, or just a bug fix?
