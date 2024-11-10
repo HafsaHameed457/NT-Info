@@ -272,9 +272,13 @@ A blocking single-threaded web server handles requests one at a time in a single
 
 3. Unresponsive Under Load: High-traffic scenarios can overwhelm the server, making it unresponsive or causing timeouts.
 
+
 ## Solution
 
 Spin different web servers and put them behind a load balancer
+
+- Solution: Asynchronous Non-Blocking I/O
+To address these issues, servers can be designed to use asynchronous, non-blocking I/O. Node.js, for example, is single-threaded but designed around non-blocking I/O, allowing it to handle multiple requests efficiently in a single thread by not blocking on I/O operations. For example:
 
 
 
