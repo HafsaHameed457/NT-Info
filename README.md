@@ -252,4 +252,6 @@ Helps developers and users understand the significance of a version change. Is i
 
 - Response: The server sends the processed data back to the client’s browser, displaying the requested page or data.
 
+## Blocking single threaded web server
 
+A blocking single-threaded web server handles requests one at a time in a single execution thread. This means that each request is processed sequentially: if one request takes time (e.g., for I/O operations like reading from disk or accessing a database), all other incoming requests must wait until that task completes. This behavior leads to "blocking" where other requests are held up, potentially resulting in poor performance, especially under high traffic.
