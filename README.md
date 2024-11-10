@@ -236,4 +236,20 @@ Helps developers and users understand the significance of a version change. Is i
 
 - When you type a URL in your browser or click on a link, the web server is what receives and processes that request, delivering the requested content, like web pages, images, or files, back to your browser.
 
+- The default port for HTTP is port 80.
+
+- For HTTPS (the secure version of HTTP), the default port is port 443.
+
+
+## How web server works??
+
+- Request Handling: When a client (usually a web browser) makes a request (for example, by entering a URL), the request is sent to the web server. (HTTP)
+
+- Processing: The web server software processes this request. It might involve:
+
+ 1. Fetching a file from storage if it’s a static resource (like an image or HTML file).
+ 2. Running scripts or connecting to databases if it's a dynamic request (e.g., fetching user-specific data).
+
+- Response: The server sends the processed data back to the client’s browser, displaying the requested page or data.
+
 
