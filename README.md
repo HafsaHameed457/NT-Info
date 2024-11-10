@@ -226,3 +226,14 @@ Example: Fixing a bug, improving performance, or making small optimizations.
 
 
 Helps developers and users understand the significance of a version change. Is it a major update, minor feature, or just a bug fix?
+
+
+## What is a web server?
+
+- It is a software which serves web content (HTML, PDF, web pages, api json)
+
+- It uses HTTP protocol.
+
+- When you type a URL in your browser or click on a link, the web server is what receives and processes that request, delivering the requested content, like web pages, images, or files, back to your browser.
+
+
