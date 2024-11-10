@@ -264,6 +264,17 @@ A blocking single-threaded web server handles requests one at a time in a single
  
  3. Sequential Handling: Requests are queued and handled in sequence; a long request causes delays for subsequent requests.
 
+## Problems with Blocking Single-Threaded Servers:
+
+1. Poor Scalability: Blocking calls prevent handling other requests, limiting the server's capacity to handle multiple users simultaneously.
+
+2. Slow Response Times: A single slow request can delay responses for all other requests.
+
+3. Unresponsive Under Load: High-traffic scenarios can overwhelm the server, making it unresponsive or causing timeouts.
+
 ## Solution
 
 Spin different web servers and put them behind a load balancer
+
+
+
