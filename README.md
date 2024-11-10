@@ -278,7 +278,24 @@ A blocking single-threaded web server handles requests one at a time in a single
 Spin different web servers and put them behind a load balancer
 
 - Solution: Asynchronous Non-Blocking I/O
-To address these issues, servers can be designed to use asynchronous, non-blocking I/O. Node.js, for example, is single-threaded but designed around non-blocking I/O, allowing it to handle multiple requests efficiently in a single thread by not blocking on I/O operations. For example:
+To address these issues, servers can be designed to use asynchronous, non-blocking I/O. Node.js, for example, is single-threaded but designed around non-blocking I/O, allowing it to handle multiple requests efficiently in a single thread by not blocking on I/O operations.
+
+## OTS Web server (Over-the-shelf)
+
+
+An OTS (Off-the-Shelf) web server is a pre-built, general-purpose web server that can be readily used for hosting websites or applications without requiring extensive customization. These servers are designed to handle a wide range of use cases and are typically reliable, well-supported, and easy to set up and configure.
+
+### Examples of OTS Web Servers:
+
+1. Apache HTTP Server: One of the most widely used web servers, known for its robustness and modularity. It is open-source and suitable for a variety of applications.
+
+2. Nginx: Known for its performance and ability to handle high loads, Nginx is often used as a web server or reverse proxy and is popular for serving static content efficiently.
+
+3. Microsoft IIS (Internet Information Services): A web server developed by Microsoft, commonly used for hosting applications on Windows Server environments.
+
+4. LiteSpeed: A high-performance server known for its speed and optimization, especially in shared hosting environments.
+
+
 
 
 
