@@ -256,6 +256,13 @@ Helps developers and users understand the significance of a version change. Is i
 
 A blocking single-threaded web server handles requests one at a time in a single execution thread. This means that each request is processed sequentially: if one request takes time (e.g., for I/O operations like reading from disk or accessing a database), all other incoming requests must wait until that task completes. This behavior leads to "blocking" where other requests are held up, potentially resulting in poor performance, especially under high traffic.
 
+- How It Works:
+
+ 1. Single Thread: The server runs on a single thread, meaning it can only handle one request at a time.
+
+ 2. Blocking Behavior: Each request blocks the thread until its operation (like data fetching or file reading) completes.
+ 
+ 3. Sequential Handling: Requests are queued and handled in sequence; a long request causes delays for subsequent requests.
 
 ## Solution
 
