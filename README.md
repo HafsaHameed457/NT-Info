@@ -318,5 +318,24 @@ OTS web servers are ideal for:
 - Developers and Small Businesses: Set up a reliable server without needing extensive technical expertise or resources.
 
 
-##  JUST MAINTAINING STREAK TODAY
+##  HTTP
+
+
+HTTP, or Hypertext Transfer Protocol, is the foundation of data communication on the web. It defines how messages are formatted and transmitted between web browsers (clients) and servers, allowing them to request and deliver web pages, images, and other resources. HTTP operates as a request-response protocol, where clients send requests to servers, which respond with the requested content or status codes.
+
+
+HTTP requests and responses are the two main components of communication between a client (like a web browser) and a server on the web:
+
+1. HTTP Request: This is sent by the client to request data or an action from the server. It includes:
+
+Method: Specifies the action (e.g., GET, POST, PUT, DELETE).
+URL: The resource address (e.g., /products).
+Headers: Metadata like Content-Type or Authorization.
+Body (optional): Data sent with the request, typically in POST and PUT requests.
+
+2. HTTP Response: The server replies to the client’s request with this response, which includes:
+
+Status Code: Indicates success or error (e.g., 200 OK, 404 Not Found).
+Headers: Information about the response, like Content-Type.
+Body: The actual content, such as HTML, JSON, or an error message.
 
