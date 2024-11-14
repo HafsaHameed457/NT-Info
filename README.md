@@ -339,3 +339,7 @@ Status Code: Indicates success or error (e.g., 200 OK, 404 Not Found).
 Headers: Information about the response, like Content-Type.
 Body: The actual content, such as HTML, JSON, or an error message.
 
+
+## HTTP REQUEST
+
+
