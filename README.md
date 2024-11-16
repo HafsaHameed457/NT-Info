@@ -424,26 +424,36 @@ The response body contains the data requested by the client (e.g., HTML, JSON, o
 2. HTTP Status Codes
 Status codes are divided into five categories:
 
+
+
 A. Informational (1xx)
 Temporary responses used during request processing.
 
 100 Continue: The server has received the request headers; the client should proceed with the body.
+
+
 B. Success (2xx)
 Indicates that the request was successful.
 
 200 OK: The request succeeded, and the response body contains the data.
 201 Created: A resource was successfully created.
+
+
 C. Redirection (3xx)
 The client must take additional actions to complete the request.
 
 301 Moved Permanently: The requested resource has a new URL.
 302 Found: Temporarily redirect to another URL.
+
+
 D. Client Errors (4xx)
 The request has an error from the client side.
 
 400 Bad Request: The request was malformed.
 401 Unauthorized: Authentication is required.
 404 Not Found: The resource could not be found.
+
+
 E. Server Errors (5xx)
 The server encountered an error while processing the request.
 
