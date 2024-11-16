@@ -532,3 +532,22 @@ GET /users: Fetch a list of users.
 POST /users: Add a new user.
 PUT /users/1: Update user with ID 1.
 DELETE /users/1: Delete user with ID 1.
+
+
+2. Routing in APIs
+A. What is Routing?
+Routing is the process of defining URL paths and mapping them to specific server-side functions or handlers.
+
+B. Types of Routes
+Static Routes:
+
+Match specific paths.
+Example: /home, /about.
+Dynamic Routes:
+
+Include placeholders for parameters.
+Example: /users/:id where :id is a dynamic value.
+Catch-All Routes:
+
+Handle unspecified or wildcard paths.
+Example: /products/*.
