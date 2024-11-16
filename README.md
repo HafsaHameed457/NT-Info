@@ -516,3 +516,19 @@ Understanding HTTP responses is critical for debugging, optimizing APIs, and ens
 ## HTTP APIS and routing
 
 HTTP APIs (Application Programming Interfaces) allow clients to interact with servers using HTTP methods like GET, POST, PUT, and DELETE to access or manipulate resources. Routing defines how API endpoints (URLs) map to specific server logic or functions.
+
+
+
+1. HTTP API Basics
+A. Key Components
+Endpoint: The URL path where the API is accessible (e.g., /users).
+Method: The HTTP method determines the action to perform.
+Request: Includes the HTTP method, headers, body (optional), and query parameters.
+Response: The server's reply with a status code, headers, and a body.
+B. Example
+For a RESTful API managing users:
+
+GET /users: Fetch a list of users.
+POST /users: Add a new user.
+PUT /users/1: Update user with ID 1.
+DELETE /users/1: Delete user with ID 1.
