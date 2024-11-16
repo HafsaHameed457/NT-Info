@@ -395,3 +395,5 @@ curl -X POST https://api.example.com/login \
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer TOKEN123" \
      -d '{"username": "JohnDoe", "password": "12345"}'
+
+## HTTP Response
