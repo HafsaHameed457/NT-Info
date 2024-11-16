@@ -374,3 +374,24 @@ Request Sent: The client sends the request to the server.
 Response Received: The server processes the request and sends back a response.
 
 
+4. Common Headers
+General Headers:
+Host: Domain name of the server.
+User-Agent: Client application making the request.
+Content Headers:
+Content-Type: Type of data in the body (e.g., application/json).
+Content-Length: Size of the body.
+Authorization Headers:
+Authorization: Includes credentials for secure endpoints.
+Caching Headers:
+Cache-Control: Defines cache behavior.
+
+5. Request Example
+A POST request using curl:
+
+bash
+Copy code
+curl -X POST https://api.example.com/login \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer TOKEN123" \
+     -d '{"username": "JohnDoe", "password": "12345"}'
