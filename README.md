@@ -512,3 +512,7 @@ Content-Encoding: deflate
 
 
 Understanding HTTP responses is critical for debugging, optimizing APIs, and ensuring effective client-server communication.
+
+## HTTP APIS and routing
+
+HTTP APIs (Application Programming Interfaces) allow clients to interact with servers using HTTP methods like GET, POST, PUT, and DELETE to access or manipulate resources. Routing defines how API endpoints (URLs) map to specific server logic or functions.
