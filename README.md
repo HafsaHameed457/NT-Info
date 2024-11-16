@@ -449,3 +449,22 @@ The server encountered an error while processing the request.
 
 500 Internal Server Error: General server error.
 503 Service Unavailable: The server is temporarily unavailable.
+
+
+3. Common Response Headers
+A. General Headers
+Date: Timestamp of when the response was generated.
+Server: Information about the server (e.g., Apache, nginx).
+
+B. Content Headers
+Content-Type: Media type of the response body (e.g., application/json, text/html).
+Content-Length: Size of the response body in bytes.
+
+C. Caching Headers
+Cache-Control: Instructions for caching (e.g., no-cache, max-age=3600).
+ETag: Identifier for a specific version of the resource.
+
+D. Security Headers
+Strict-Transport-Security: Enforces HTTPS for future requests.
+Content-Security-Policy: Controls resources that can be loaded by the browser.
+
