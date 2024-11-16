@@ -468,3 +468,21 @@ D. Security Headers
 Strict-Transport-Security: Enforces HTTPS for future requests.
 Content-Security-Policy: Controls resources that can be loaded by the browser.
 
+4. Example HTTP Response
+For a successful request:
+
+makefile
+
+HTTP/1.1 200 OK
+Date: Wed, 15 Nov 2024 10:00:00 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Type: application/json
+Content-Length: 123
+
+{
+   "message": "Request was successful",
+   "data": {
+      "id": 1,
+      "name": "Example"
+   }
+}
