@@ -496,3 +496,16 @@ Content-Length: 123
       "name": "Example"
    }
 }
+
+5. Key Concepts
+A. Persistent Connections
+Modern HTTP uses persistent connections (HTTP/1.1+) by default, allowing multiple requests and responses over a single connection.
+
+B. Chunked Responses
+When the server doesn’t know the content size beforehand, it sends the response in chunks (using Transfer-Encoding: chunked).
+
+C. Compression
+Responses can be compressed for efficiency using headers like:
+
+Content-Encoding: gzip
+Content-Encoding: deflate
