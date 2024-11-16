@@ -397,3 +397,10 @@ curl -X POST https://api.example.com/login \
      -d '{"username": "JohnDoe", "password": "12345"}'
 
 ## HTTP Response
+
+1. Components of an HTTP Response
+A. Status Line
+The first line of the response includes:
+
+HTTP Version: Specifies the HTTP version (e.g., HTTP/1.1 or HTTP/2).
+Status Code: Indicates the outcome of the request (e.g., 200 for success, 404 for not found).
