@@ -551,3 +551,36 @@ Catch-All Routes:
 
 Handle unspecified or wildcard paths.
 Example: /products/*.
+
+
+## API Routing example
+const express = require('express');
+const app = express();
+
+app.use(express.json()); // For parsing JSON bodies
+
+// GET request to fetch users
+app.get('/users', (req, res) => {
+  res.json([{ id: 1, name: 'John Doe' }]);
+});
+
+// POST request to add a new user
+app.post('/users', (req, res) => {
+  const newUser = req.body;
+  res.status(201).json({ message: 'User created', user: newUser });
+});
+
+// PUT request to update user by ID
+app.put('/users/:id', (req, res) => {
+  const userId = req.params.id;
+  res.json({ message: `User ${userId} updated` });
+});
+
+// DELETE request to delete a user by ID
+app.delete('/users/:id', (req, res) => {
+  const userId = req.params.id;
+  res.json({ message: `User ${userId} deleted` });
+});
+
+// Start the server
+app.listen(3000, () => console.log('Server running on port 3000'));
