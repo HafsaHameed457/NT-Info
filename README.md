@@ -404,3 +404,19 @@ The first line of the response includes:
 
 HTTP Version: Specifies the HTTP version (e.g., HTTP/1.1 or HTTP/2).
 Status Code: Indicates the outcome of the request (e.g., 200 for success, 404 for not found).
+Reason Phrase: A brief description of the status code
+
+B. Response Headers
+Headers provide metadata about the response. These are key-value pairs.
+
+Examples:
+
+yaml
+
+
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1234
+Date: Wed, 15 Nov 2024 10:00:00 GMT
+
+C. Response Body
+The response body contains the data requested by the client (e.g., HTML, JSON, or image). Not all responses include a body (e.g., 204 No Content).
