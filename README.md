@@ -341,5 +341,36 @@ Body: The actual content, such as HTML, JSON, or an error message.
 
 
 ## HTTP REQUEST
+An HTTP request is a communication mechanism that allows a client (usually a web browser or app) to request resources or perform actions on a server. Here’s a breakdown:
+
+1. Components of an HTTP Request
+Request Line: Specifies the HTTP method, target URL (or resource), and HTTP version. Example: GET /index.html HTTP/1.1
+Headers: Key-value pairs providing metadata about the request. Example:
+
+Copy code
+Host: www.example.com
+User-Agent: Mozilla/5.0
+Body: Contains data (optional, used in POST/PUT requests). Example:
+json
+Copy code
+{
+  "username": "JohnDoe",
+  "password": "12345"
+}
+
+2. HTTP Methods
+GET: Retrieve data.
+POST: Submit data.
+PUT: Update/replace data.
+DELETE: Remove data.
+HEAD: Similar to GET but only retrieves headers.
+OPTIONS: Returns allowed methods for a resource.
+PATCH: Partially updates a resource.
+
+3. Request Flow
+DNS Resolution: The domain (e.g., www.example.com) is resolved to an IP address.
+Connection Establishment: A connection to the server is made (via TCP or TLS for HTTPS).
+Request Sent: The client sends the request to the server.
+Response Received: The server processes the request and sends back a response.
 
 
