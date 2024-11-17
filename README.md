@@ -634,3 +634,9 @@ Nested resources: /users/:id/orders.
 Query Parameters:
 Filtering or searching: /products?category=books.
 Pagination: /products?page=2&limit=10.
+
+6. Best Practices
+Use path parameters for resource identification (/users/:id).
+Use query parameters for filtering, sorting, and optional inputs (?search=query).
+Validate parameter inputs to prevent misuse or injection attacks.
+Encode special characters in query parameters (e.g., spaces as %20).
