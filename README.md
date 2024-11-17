@@ -595,3 +595,20 @@ Example:
 
 URL Template: /users/:id
 URL with Parameter: /users/123 (where 123 is the id value)
+
+2. Types of Parameters
+A. Path Parameters
+Embedded directly in the URL path.
+Identified with :name or {name} syntax.
+
+Example:
+Template: /products/:productId
+Actual: /products/42
+
+B. Query Parameters
+Passed after a ? in the URL.
+
+Syntax: ?key=value&key2=value2.
+
+Example:
+URL: /products?category=books&sort=price
