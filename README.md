@@ -660,3 +660,12 @@ Path Parameter: /users/:id
 Actual URL: /users/123
 Here, 123 identifies a specific user in the system.
 
+### Why Use Path Parameters for Resource Identification?
+Uniqueness: Path parameters uniquely identify a single resource.
+
+Example: /products/:productId → /products/42 retrieves the product with ID 42.
+Readability: URLs are clean and descriptive.
+
+Example: /orders/:orderId → /orders/987 is easier to understand than /orders?id=987.
+RESTful API Design: In REST, resources are represented by endpoints, and their unique identifiers are often embedded in the path.
+
