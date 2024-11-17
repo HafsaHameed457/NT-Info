@@ -652,3 +652,11 @@ GET /users/:userId/orders?status=shipped&page=2
 ## Resource identification
 
 Resource identification refers to specifying and accessing a specific entity or item within a system or database through a URL. In the context of APIs, it means using path parameters to uniquely locate or address a specific resource (like a user, product, or order) by its unique identifier.
+
+### Example of Resource Identification
+If you have a database of users:
+
+Path Parameter: /users/:id
+Actual URL: /users/123
+Here, 123 identifies a specific user in the system.
+
