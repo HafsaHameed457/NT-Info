@@ -612,3 +612,14 @@ Syntax: ?key=value&key2=value2.
 
 Example:
 URL: /products?category=books&sort=price
+
+## Query vs path parameters
+
+## Query vs Path Parameters
+
+| **Aspect**        | **Path Parameters**           | **Query Parameters**               |
+|--------------------|-------------------------------|-------------------------------------|
+| **Purpose**        | Identify a specific resource  | Filter or customize resource data  |
+| **Location**       | URL path                     | After `?` in the URL               |
+| **Syntax**         | `/users/:id`                 | `/users?name=John&age=30`          |
+| **Usage**          | Mandatory (usually)          | Optional (often)                   |
