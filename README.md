@@ -82,7 +82,7 @@ In JavaScript, the global object is an object that provides access to various gl
 The global object is window.
 It provides access to browser-specific features like document, localStorage, and console.
 javascript
-Copy code
+
 console.log(window); // The global object in browsers
 
 - In Node.js:
@@ -347,12 +347,12 @@ An HTTP request is a communication mechanism that allows a client (usually a web
 Request Line: Specifies the HTTP method, target URL (or resource), and HTTP version. Example: GET /index.html HTTP/1.1
 Headers: Key-value pairs providing metadata about the request. Example:
 
-Copy code
+
 Host: www.example.com
 User-Agent: Mozilla/5.0
 Body: Contains data (optional, used in POST/PUT requests). Example:
 json
-Copy code
+
 {
   "username": "JohnDoe",
   "password": "12345"
@@ -390,7 +390,7 @@ Cache-Control: Defines cache behavior.
 A POST request using curl:
 
 bash
-Copy code
+
 curl -X POST https://api.example.com/login \
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer TOKEN123" \
@@ -645,5 +645,5 @@ Encode special characters in query parameters (e.g., spaces as %20).
 A URL combining both types:
 
 
-Copy code
+
 GET /users/:userId/orders?status=shipped&page=2
