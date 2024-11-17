@@ -613,7 +613,7 @@ Syntax: ?key=value&key2=value2.
 Example:
 URL: /products?category=books&sort=price
 
-## Query vs path parameters
+
 
 ## Query vs Path Parameters
 
