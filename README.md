@@ -672,3 +672,7 @@ RESTful API Design: In REST, resources are represented by endpoints, and their u
 ### Resource Identification vs Filtering
 Resource Identification: Targets a specific resource (e.g., /users/:id).
 Filtering: Retrieves a collection of resources based on certain criteria (e.g., /users?age=30).
+
+## Same origin policy
+
+The Same-Origin Policy (SOP) is a critical security feature implemented in web browsers to prevent malicious attacks by restricting how scripts on one web page can interact with resources on another web page. It ensures that a web page can only access data from the same origin unless explicitly allowed.
