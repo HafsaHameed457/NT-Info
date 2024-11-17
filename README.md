@@ -588,3 +588,10 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 ## Parameterized URL
 Parameterized URLs use dynamic placeholders (parameters) in the URL path or query string to handle variable data. These are common in APIs and routing systems for dynamically accessing or manipulating resources based on input values.
 
+1. What Are Parameterized URLs?
+A parameterized URL includes variables (parameters) marked with a special syntax like : or {}. These variables are replaced with actual values when the URL is used.
+
+Example:
+
+URL Template: /users/:id
+URL with Parameter: /users/123 (where 123 is the id value)
