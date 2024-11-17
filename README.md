@@ -623,3 +623,14 @@ URL: /products?category=books&sort=price
 | **Location**       | URL path                     | After `?` in the URL               |
 | **Syntax**         | `/users/:id`                 | `/users?name=John&age=30`          |
 | **Usage**          | Mandatory (usually)          | Optional (often)                   |
+
+
+
+5. Use Cases
+Path Parameters:
+Accessing a specific resource: /users/:id.
+Nested resources: /users/:id/orders.
+
+Query Parameters:
+Filtering or searching: /products?category=books.
+Pagination: /products?page=2&limit=10.
