@@ -640,3 +640,10 @@ Use path parameters for resource identification (/users/:id).
 Use query parameters for filtering, sorting, and optional inputs (?search=query).
 Validate parameter inputs to prevent misuse or injection attacks.
 Encode special characters in query parameters (e.g., spaces as %20).
+
+## Example Combined URL
+A URL combining both types:
+
+
+Copy code
+GET /users/:userId/orders?status=shipped&page=2
