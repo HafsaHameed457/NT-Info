@@ -676,3 +676,20 @@ Filtering: Retrieves a collection of resources based on certain criteria (e.g., 
 ## Same origin policy
 
 The Same-Origin Policy (SOP) is a critical security feature implemented in web browsers to prevent malicious attacks by restricting how scripts on one web page can interact with resources on another web page. It ensures that a web page can only access data from the same origin unless explicitly allowed.
+
+### Definition of "Origin"
+An origin consists of:
+
+Protocol (e.g., http, https)
+Domain (e.g., example.com)
+Port (if specified, e.g., :8080)
+Two URLs have the same origin if all three components match exactly.
+
+Example:
+
+https://example.com is the same origin as https://example.com/page.
+https://example.com is NOT the same origin as:
+http://example.com (different protocol).
+https://sub.example.com (different domain).
+https://example.com:8080 (different port).
+
