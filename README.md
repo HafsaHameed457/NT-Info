@@ -669,3 +669,6 @@ Readability: URLs are clean and descriptive.
 Example: /orders/:orderId → /orders/987 is easier to understand than /orders?id=987.
 RESTful API Design: In REST, resources are represented by endpoints, and their unique identifiers are often embedded in the path.
 
+### Resource Identification vs Filtering
+Resource Identification: Targets a specific resource (e.g., /users/:id).
+Filtering: Retrieves a collection of resources based on certain criteria (e.g., /users?age=30).
