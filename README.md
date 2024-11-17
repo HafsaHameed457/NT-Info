@@ -647,3 +647,8 @@ A URL combining both types:
 
 
 GET /users/:userId/orders?status=shipped&page=2
+
+
+## Resource identification
+
+Resource identification refers to specifying and accessing a specific entity or item within a system or database through a URL. In the context of APIs, it means using path parameters to uniquely locate or address a specific resource (like a user, product, or order) by its unique identifier.
