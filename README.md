@@ -698,3 +698,12 @@ https://example.com:8080 (different port).
 The Cross-Origin Policy, commonly referred to as CORS (Cross-Origin Resource Sharing), is a security feature implemented by web browsers to restrict web pages from making requests to a domain different from the one that served the web page
 
 ## Key points
+
+
+- Same-Origin Policy (SOP): By default, browsers enforce SOP, blocking cross-origin requests for security.
+
+- CORS Header: A server must send specific HTTP headers (like Access-Control-Allow-Origin) to indicate it allows cross-origin requests.
+
+- Preflight Requests: For certain requests, browsers send an OPTIONS request to check permissions before the actual request.
+
+- Usage: Used in APIs, ensuring only authorized origins can access resources.
