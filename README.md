@@ -707,3 +707,5 @@ The Cross-Origin Policy, commonly referred to as CORS (Cross-Origin Resource Sha
 - Preflight Requests: For certain requests, browsers send an OPTIONS request to check permissions before the actual request.
 
 - Usage: Used in APIs, ensuring only authorized origins can access resources.
+
+## Allow listing and white listing
