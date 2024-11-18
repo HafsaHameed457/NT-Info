@@ -693,3 +693,4 @@ http://example.com (different protocol).
 https://sub.example.com (different domain).
 https://example.com:8080 (different port).
 
+## Cross origin policy
