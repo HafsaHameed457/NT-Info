@@ -696,3 +696,5 @@ https://example.com:8080 (different port).
 ## Cross origin policy (CORS)
 
 The Cross-Origin Policy, commonly referred to as CORS (Cross-Origin Resource Sharing), is a security feature implemented by web browsers to restrict web pages from making requests to a domain different from the one that served the web page
+
+## Key points
