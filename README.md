@@ -712,3 +712,9 @@ The Cross-Origin Policy, commonly referred to as CORS (Cross-Origin Resource Sha
 
 
 Allow Listing and White Listing refer to the practice of explicitly permitting specific entities (e.g., IP addresses, domains, applications, or users) to access a resource or system.
+
+## Difference
+
+- Allow Listing: Modern terminology to avoid potential biases associated with "white" in "whitelisting." It functions the same as whitelisting.
+
+- White Listing: Older term with the same concept, now being replaced in many contexts for inclusivity.
