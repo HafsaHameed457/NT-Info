@@ -709,3 +709,6 @@ The Cross-Origin Policy, commonly referred to as CORS (Cross-Origin Resource Sha
 - Usage: Used in APIs, ensuring only authorized origins can access resources.
 
 ## Allow listing and white listing
+
+
+Allow Listing and White Listing refer to the practice of explicitly permitting specific entities (e.g., IP addresses, domains, applications, or users) to access a resource or system.
