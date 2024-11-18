@@ -730,3 +730,5 @@ Allow Listing and White Listing refer to the practice of explicitly permitting s
 - Firewall Rules: Specific IPs allowed to connect to a network.
 
 - Application Access: Only approved users or systems can interact with an API.
+
+## Request and response as streams
