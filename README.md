@@ -757,4 +757,11 @@ When requests and responses are treated as streams, it means data is sent and re
 
 3. APIs returning large datasets efficiently (e.g., paginated responses).
 
+### Benefits:
+1. Memory Efficiency: No need to load the entire data into memory.
+
+2. Faster Processing: Data can be consumed as it's transmitted.
+
+3. Improved Performance: Reduces latency for large transfers.
+
 
