@@ -732,3 +732,7 @@ Allow Listing and White Listing refer to the practice of explicitly permitting s
 - Application Access: Only approved users or systems can interact with an API.
 
 ## Request and response as streams
+
+When requests and responses are treated as streams, it means data is sent and received incrementally rather than as a single block. This is especially useful for large payloads, enabling efficient memory usage and faster data processing.
+
+
