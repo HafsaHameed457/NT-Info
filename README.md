@@ -718,3 +718,15 @@ Allow Listing and White Listing refer to the practice of explicitly permitting s
 - Allow Listing: Modern terminology to avoid potential biases associated with "white" in "whitelisting." It functions the same as whitelisting.
 
 - White Listing: Older term with the same concept, now being replaced in many contexts for inclusivity.
+
+## Working
+
+- Security Policy: Only entities on the list are granted access; all others are denied by default.
+
+## Examples:
+
+- CORS Allow List: Domains permitted via Access-Control-Allow-Origin.
+
+- Firewall Rules: Specific IPs allowed to connect to a network.
+
+- Application Access: Only approved users or systems can interact with an API.
