@@ -736,3 +736,16 @@ Allow Listing and White Listing refer to the practice of explicitly permitting s
 When requests and responses are treated as streams, it means data is sent and received incrementally rather than as a single block. This is especially useful for large payloads, enabling efficient memory usage and faster data processing.
 
 
+1. Streams in Requests:
+
+  - The client sends data to the server in chunks (e.g., file uploads or large payloads).
+  - The server processes data as it arrives instead of waiting for the entire payload.
+  - Example: Uploading a file using a POST request.
+  
+2. Streams in Responses:
+
+  - The server sends data to the client incrementally as it becomes available.
+  - The client can process the response data before receiving it completely.
+  - Example: Streaming video, or sending large JSON data in chunks.
+
+
