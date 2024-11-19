@@ -837,6 +837,10 @@ Use Express for flexible APIs or backends.
 Use Next.js for React-based web apps with SSR or SSG.
 Use Koa if you need a cleaner, lightweight framework for APIs with better async handling.
 
+## Route parameter
+
+
+
 
 
 
