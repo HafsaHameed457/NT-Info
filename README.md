@@ -880,7 +880,7 @@ Swagger UI
 Postwoman (Hoppscotch)
 
 ## Development dependencies
-
+Development dependencies are packages or libraries that are only needed during the development and build processes of an application, but are not required in the production environment.
 
 
 
