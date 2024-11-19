@@ -837,7 +837,11 @@ Use Express for flexible APIs or backends.
 Use Next.js for React-based web apps with SSR or SSG.
 Use Koa if you need a cleaner, lightweight framework for APIs with better async handling.
 
-## Route parameter
+## Route parameters
+
+Route parameters are dynamic segments of a URL used to capture values from the URL path. They are commonly used in frameworks like Express.js to create dynamic routes
+
+
 
 
 
