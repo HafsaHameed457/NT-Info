@@ -841,6 +841,19 @@ Use Koa if you need a cleaner, lightweight framework for APIs with better async 
 
 Route parameters are dynamic segments of a URL used to capture values from the URL path. They are commonly used in frameworks like Express.js to create dynamic routes
 
+ const express = require('express');
+const app = express();
+
+
+app.get('/users/:userId', (req, res) => {
+  const userId = req.params.userId; // Access route parameter
+  res.send(`User ID is: ${userId}`);
+});
+
+// Start the server
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
 
 
 
