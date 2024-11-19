@@ -884,6 +884,16 @@ Development dependencies are packages or libraries that are only needed during t
 
 ## Development vs production env
 
+| **Aspect**            | **Development Environment**                              | **Production Environment**                          |
+|-----------------------|----------------------------------------------------------|-----------------------------------------------------|
+| **Code**              | Source code is visible and unminified.                   | Code is minified and optimized.                     |
+| **Error Handling**    | Detailed error messages and debugging tools.             | Errors are suppressed or logged to files/systems.    |
+| **Performance**       | Not optimized for speed; slow build times.                | Highly optimized for fast performance and load times.|
+| **Dependencies**      | Includes development tools like testing libraries.       | Only runtime dependencies are included.             |
+| **User Experience**   | Often not publicly available; used by developers.        | Fully functional and accessible to end-users.       |
+| **Security**          | Less stringent; focus is on development.                 | Strong security measures are in place.              |
+
+
 
 
 
