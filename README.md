@@ -858,6 +858,26 @@ app.listen(3000, () => {
 ## API Testing
 
 
+Here’s a list of API testing tools:
+
+Postman
+Insomnia
+SoapUI
+Apigee
+JMeter
+Rest Assured
+Paw (macOS only)
+Katalon Studio
+Newman
+RestClient (VS Code Extension)
+HTTPie
+Redocly
+Tricentis Tosca
+Assertible
+Runscope
+RestSharp (C# library)
+Swagger UI
+Postwoman (Hoppscotch)
 
 
 
