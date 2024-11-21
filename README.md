@@ -925,6 +925,10 @@ Error Handling: Middleware can stop the chain by returning an error response.
 Reusable Logic: Each middleware performs a specific task, keeping the code modular.
 Conditional Flow: Middleware can decide dynamically whether to continue or terminate the request.
 
+## MVC
+
+
+
 
 
 
