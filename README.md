@@ -898,12 +898,12 @@ Development dependencies are packages or libraries that are only needed during t
 
 Middleware is a function or piece of code that sits between the request and the response in an application's request-response cycle. It processes or modifies incoming requests and outgoing responses, often used in frameworks like Express.js, Next.js, or Redux
 
-General Purpose of Middleware
-Logging: Track requests or application behavior.
-Authentication/Authorization: Verify users or permissions.
-Request Parsing: Process data, such as JSON or URL-encoded data.
-Error Handling: Catch and handle errors.
-Routing: Modify or redirect requests.
+### General Purpose of Middleware
+ 1. Logging: Track requests or application behavior.
+ 2. Authentication/Authorization: Verify users or permissions.
+ 3. Request Parsing: Process data, such as JSON or URL-encoded data.
+ 4. Error Handling: Catch and handle errors.
+ 5. Routing: Modify or redirect requests.
 
 
 
