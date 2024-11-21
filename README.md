@@ -919,6 +919,11 @@ If a middleware does not call next(), the chain stops, and no further middleware
  4. Middleware 3 → Adds/modifies data and calls next().
  5. Route Handler → Final response is sent to the client.
 
+Common Scenarios
+Error Handling: Middleware can stop the chain by returning an error response.
+Reusable Logic: Each middleware performs a specific task, keeping the code modular.
+Conditional Flow: Middleware can decide dynamically whether to continue or terminate the request.
+
 
 
 
