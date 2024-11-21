@@ -896,6 +896,8 @@ Development dependencies are packages or libraries that are only needed during t
 
 ## Middleware
 
+Middleware is a function or piece of code that sits between the request and the response in an application's request-response cycle. It processes or modifies incoming requests and outgoing responses, often used in frameworks like Express.js, Next.js, or Redux
+
 
 
 
