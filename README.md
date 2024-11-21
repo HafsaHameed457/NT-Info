@@ -894,7 +894,7 @@ Development dependencies are packages or libraries that are only needed during t
 | **Security**          | Less stringent; focus is on development.                 | Strong security measures are in place.              |
 
 
-## New changes
+
 
 
 
