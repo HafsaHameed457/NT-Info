@@ -907,6 +907,10 @@ Middleware is a function or piece of code that sits between the request and the 
 
 ## Middleware chaining
 
+Middleware chaining refers to the process of executing multiple middleware functions in a sequence, where each middleware has the ability to process the request and response and then pass control to the next middleware in the chain using the next() function.
+
+If a middleware does not call next(), the chain stops, and no further middleware or route handlers are executed.
+
 
 
 
