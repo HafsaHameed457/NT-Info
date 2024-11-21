@@ -911,12 +911,13 @@ Middleware chaining refers to the process of executing multiple middleware funct
 
 If a middleware does not call next(), the chain stops, and no further middleware or route handlers are executed.
 
-How Middleware Chaining Works
-Request → Enters middleware chain.
-Middleware 1 → Performs an action (e.g., logs details) and calls next().
-Middleware 2 → Verifies user and either proceeds or stops.
-Middleware 3 → Adds/modifies data and calls next().
-Route Handler → Final response is sent to the client.
+### How Middleware Chaining Works
+
+ 1. Request → Enters middleware chain.
+ 2. Middleware 1 → Performs an action (e.g., logs details) and calls next().
+ 3. Middleware 2 → Verifies user and either proceeds or stops.
+ 4. Middleware 3 → Adds/modifies data and calls next().
+ 5. Route Handler → Final response is sent to the client.
 
 
 
