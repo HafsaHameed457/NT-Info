@@ -946,6 +946,18 @@ The key difference is that the View is passive in MVP, meaning it only knows how
 
 ## MVP VS MVC
 
+## MVC vs MVP
+
+| Feature                | MVC (Model-View-Controller)                        | MVP (Model-View-Presenter)                        |
+|------------------------|----------------------------------------------------|--------------------------------------------------|
+| **Primary Focus**      | Separation of concerns among data, UI, and logic.  | Emphasis on testable and modular UI logic.       |
+| **View's Role**        | Handles UI and some logic, interacts with Controller. | Passive; delegates all logic to the Presenter.  |
+| **Controller/Presenter** | Mediates between View and Model, user-driven.     | Mediates; handles all logic and updates the View. |
+| **Testing**            | Harder to test View logic due to coupling.         | Easier; logic is in the Presenter, which is testable. |
+| **Flow Direction**     | View ↔ Controller ↔ Model.                        | View → Presenter ↔ Model.                        |
+| **Usage**              | Common in web frameworks like Rails, Spring.       | Used in event-driven UIs like Android apps.      |
+
+
 
 
 
