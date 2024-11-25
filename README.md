@@ -960,6 +960,8 @@ The key difference is that the View is passive in MVP, meaning it only knows how
 MVP offers better testability and decoupling, while MVC is simpler and widely used in web applications.
 
 
+## API
+
 
 
 
