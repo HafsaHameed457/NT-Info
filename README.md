@@ -962,6 +962,12 @@ MVP offers better testability and decoupling, while MVC is simpler and widely us
 
 ## API
 
+In software terms, an API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other.
+
+- It defines endpoints and methods (like GET, POST) for interacting with a system or service.
+- It hides the implementation details, providing only the necessary functions to use the service.
+
+For example, when you fetch weather data from a weather app, the API handles the request and returns the information in a format your app can understand, like JSON or XML.
 
 
 
