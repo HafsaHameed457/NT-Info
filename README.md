@@ -983,6 +983,13 @@ Validation Testing: Confirms API responses are correct and meet requirements.
 ## Tools
 
 
+Postman: For sending API requests and validating responses.
+cURL: Command-line tool to test API endpoints.
+Swagger/OpenAPI: Helps test API functionality and documentation.
+JMeter: For load testing.
+Newman: CLI tool for running Postman tests.
+
+
 
 
 
