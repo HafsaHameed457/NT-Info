@@ -971,6 +971,8 @@ For example, when you fetch weather data from a weather app, the API handles the
 
 ## Testing APIs
 
+Testing APIs involves verifying that they work correctly, reliably, and securely.
+
 
 
 
