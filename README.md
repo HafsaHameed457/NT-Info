@@ -969,6 +969,10 @@ In software terms, an API (Application Programming Interface) is a set of rules 
 
 For example, when you fetch weather data from a weather app, the API handles the request and returns the information in a format your app can understand, like JSON or XML.
 
+## Testing APIs
+
+
+
 
 
 
