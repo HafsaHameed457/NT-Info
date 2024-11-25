@@ -934,6 +934,17 @@ MVC (Model-View-Controller) is a software design pattern used for developing web
 3. Controller: Acts as a bridge between the Model and the View. It processes user input, updates the Model, and dictates what the View should display.
 
 
+## MVP
+
+MVP (Model-View-Presenter) is a software design pattern similar to MVC but with a clearer separation of responsibilities, especially focusing on the logic of user interface interactions. It consists of three components:
+
+1. Model: Manages the application’s data and business logic, similar to MVC.
+2. View: Displays the user interface and delegates user interactions to the Presenter without any logic.
+3. Presenter: Acts as an intermediary between the View and the Model. It handles user inputs received from the View, updates the Model, and instructs the View on what to display.
+
+The key difference is that the View is passive in MVP, meaning it only knows how to render UI and delegates all logic to the Presenter. This makes testing the logic easier as it resides entirely in the Presenter.
+
+
 
 
 
