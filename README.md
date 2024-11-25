@@ -927,7 +927,11 @@ Conditional Flow: Middleware can decide dynamically whether to continue or termi
 
 ## MVC
 
+MVC (Model-View-Controller) is a software design pattern used for developing web and desktop applications. It divides an application into three interconnected components:
 
+1. Model: Manages the application's data, logic, and rules. It directly interacts with the database and notifies the View of any changes.
+2. View: Handles the user interface and displays the data received from the Model. It sends user inputs to the Controller.
+3. Controller: Acts as a bridge between the Model and the View. It processes user input, updates the Model, and dictates what the View should display.
 
 
 
