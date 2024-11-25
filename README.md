@@ -973,6 +973,13 @@ For example, when you fetch weather data from a weather app, the API handles the
 
 Testing APIs involves verifying that they work correctly, reliably, and securely.
 
+### Types of API Testing:
+
+Functional Testing: Ensures the API performs as expected for various inputs.
+Load Testing: Checks how the API behaves under heavy traffic.
+Security Testing: Verifies data protection and access controls.
+Validation Testing: Confirms API responses are correct and meet requirements.
+
 
 
 
