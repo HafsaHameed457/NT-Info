@@ -944,6 +944,8 @@ MVP (Model-View-Presenter) is a software design pattern similar to MVC but with 
 
 The key difference is that the View is passive in MVP, meaning it only knows how to render UI and delegates all logic to the Presenter. This makes testing the logic easier as it resides entirely in the Presenter.
 
+## MVP VS MVC
+
 
 
 
