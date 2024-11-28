@@ -995,7 +995,7 @@ Newman: CLI tool for running Postman tests.
 
 1. Use Asynchronous Code: Leverage non-blocking I/O and asynchronous functions to handle multiple tasks concurrently.
 
-Cluster Mode: Utilize Node.js clustering to take advantage of multi-core CPUs, allowing your application to handle more requests.
+2. Cluster Mode: Utilize Node.js clustering to take advantage of multi-core CPUs, allowing your application to handle more requests.
 Optimize Database Queries: Reduce latency by indexing database fields, using efficient query structures, and caching frequently accessed data.
 Use Streams for Data Handling: Process large data sets efficiently using streams instead of loading them entirely in memory.
 Implement Caching: Use in-memory stores like Redis or Memcached for frequently accessed data or computational results.
