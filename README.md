@@ -1015,7 +1015,8 @@ Newman: CLI tool for running Postman tests.
 10. Use Compression: Compress HTTP responses using middleware like compression to reduce data transfer time.
 
 11. Optimize Code: Avoid deep nesting, minimize memory usage, and use efficient algorithms.
-Leverage HTTP/2: Improve speed by using multiplexing and header compression available in HTTP/2.
+
+12. Leverage HTTP/2: Improve speed by using multiplexing and header compression available in HTTP/2.
 Upgrade Dependencies: Use the latest stable versions of Node.js and npm packages for performance improvements.
 Enable Gzip: Compress response payloads to reduce the data transfer load.
 Pool Connections: Use connection pooling for databases or APIs to reduce connection setup time.
