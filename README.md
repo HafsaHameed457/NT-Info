@@ -1000,7 +1000,8 @@ Newman: CLI tool for running Postman tests.
 3. Optimize Database Queries: Reduce latency by indexing database fields, using efficient query structures, and caching frequently accessed data.
 
 4. Use Streams for Data Handling: Process large data sets efficiently using streams instead of loading them entirely in memory.
-Implement Caching: Use in-memory stores like Redis or Memcached for frequently accessed data or computational results.
+
+5. Implement Caching: Use in-memory stores like Redis or Memcached for frequently accessed data or computational results.
 Avoid Blocking Operations: Replace synchronous methods (e.g., fs.readFileSync) with their asynchronous counterparts.
 Load Balancing: Distribute traffic across multiple servers using a load balancer to prevent bottlenecks.
 Monitor and Debug: Use tools like PM2, New Relic, or Node.js built-in performance API to identify bottlenecks.
