@@ -991,7 +991,7 @@ Newman: CLI tool for running Postman tests.
 
 
 ## Improving node performance
-Improving Node.js performance involves optimizing various aspects of your application. Here are some key strategies:
+- Improving Node.js performance involves optimizing various aspects of your application. Here are some key strategies:
 
 Use Asynchronous Code: Leverage non-blocking I/O and asynchronous functions to handle multiple tasks concurrently.
 Cluster Mode: Utilize Node.js clustering to take advantage of multi-core CPUs, allowing your application to handle more requests.
