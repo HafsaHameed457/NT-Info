@@ -1008,7 +1008,8 @@ Newman: CLI tool for running Postman tests.
 7. Load Balancing: Distribute traffic across multiple servers using a load balancer to prevent bottlenecks.
 
 8. Monitor and Debug: Use tools like PM2, New Relic, or Node.js built-in performance API to identify bottlenecks.
-Minimize Middleware Overhead: Only include necessary middleware in your Express or other web frameworks.
+
+9. Minimize Middleware Overhead: Only include necessary middleware in your Express or other web frameworks.
 Use Compression: Compress HTTP responses using middleware like compression to reduce data transfer time.
 Optimize Code: Avoid deep nesting, minimize memory usage, and use efficient algorithms.
 Leverage HTTP/2: Improve speed by using multiplexing and header compression available in HTTP/2.
