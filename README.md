@@ -1006,7 +1006,8 @@ Newman: CLI tool for running Postman tests.
 6. Avoid Blocking Operations: Replace synchronous methods (e.g., fs.readFileSync) with their asynchronous counterparts.
 
 7. Load Balancing: Distribute traffic across multiple servers using a load balancer to prevent bottlenecks.
-Monitor and Debug: Use tools like PM2, New Relic, or Node.js built-in performance API to identify bottlenecks.
+
+8. Monitor and Debug: Use tools like PM2, New Relic, or Node.js built-in performance API to identify bottlenecks.
 Minimize Middleware Overhead: Only include necessary middleware in your Express or other web frameworks.
 Use Compression: Compress HTTP responses using middleware like compression to reduce data transfer time.
 Optimize Code: Avoid deep nesting, minimize memory usage, and use efficient algorithms.
