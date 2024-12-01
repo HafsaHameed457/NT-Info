@@ -1036,7 +1036,7 @@ REST API vs RESTful API:
 REST API refers to any API that follows the REST architecture style. It may or may not adhere to all the constraints of REST.
 RESTful API is the term used for an API that strictly follows REST principles, including stateless communication, resources, and the use of standard HTTP methods.
 
-
+In short, RESTful APIs are a way to make web services more standardized, predictable, and easy to use. They are widely used in modern web and mobile applications for efficient communication between the client and server.
 
 
 
