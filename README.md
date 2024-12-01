@@ -1024,6 +1024,8 @@ Newman: CLI tool for running Postman tests.
 
 15. Pool Connections: Use connection pooling for databases or APIs to reduce connection setup time.
 
+## REST VS RESTFUL APIS
+
 
 
 
