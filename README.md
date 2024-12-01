@@ -1038,7 +1038,6 @@ RESTful API is the term used for an API that strictly follows REST principles, i
 
 In short, RESTful APIs are a way to make web services more standardized, predictable, and easy to use. They are widely used in modern web and mobile applications for efficient communication between the client and server.
 
-notes
 
 
 
