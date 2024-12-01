@@ -1026,6 +1026,13 @@ Newman: CLI tool for running Postman tests.
 
 ## REST VS RESTFUL APIS
 
+RESTful APIs (Representational State Transfer)
+RESTful APIs are a type of web service that follows the principles of REST (Representational State Transfer). REST is an architectural style for distributed systems, particularly web services, that uses HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources.
+
+A RESTful API is an API (Application Programming Interface) that adheres to the principles of REST. It is based on standard HTTP methods, and each endpoint represents a specific resource or collection of resources.
+
+
+
 
 
 
