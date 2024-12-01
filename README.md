@@ -1021,7 +1021,8 @@ Newman: CLI tool for running Postman tests.
 13. Upgrade Dependencies: Use the latest stable versions of Node.js and npm packages for performance improvements.
 
 14. Enable Gzip: Compress response payloads to reduce the data transfer load.
-Pool Connections: Use connection pooling for databases or APIs to reduce connection setup time.
+
+15. Pool Connections: Use connection pooling for databases or APIs to reduce connection setup time.
 
 
 
