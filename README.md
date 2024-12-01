@@ -1032,7 +1032,7 @@ RESTful APIs are a type of web service that follows the principles of REST (Repr
 A RESTful API is an API (Application Programming Interface) that adheres to the principles of REST. It is based on standard HTTP methods, and each endpoint represents a specific resource or collection of resources.
 
 
-REST API vs RESTful API:
+## REST API vs RESTful API:
 REST API refers to any API that follows the REST architecture style. It may or may not adhere to all the constraints of REST.
 RESTful API is the term used for an API that strictly follows REST principles, including stateless communication, resources, and the use of standard HTTP methods.
 
