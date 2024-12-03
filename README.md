@@ -1080,6 +1080,8 @@ DELETE /users/{id} to delete a user.
 
 6. Stateless Communication: Since the server does not store any client session data, each request must contain all the necessary context (e.g., authentication tokens or parameters) to complete the operation.
 
+7. Cacheable: Responses from the server can be explicitly marked as cacheable or non-cacheable to optimize performance. This means that clients can store responses and reuse them to avoid repeated server calls, improving efficiency.
+
 
 
 
