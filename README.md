@@ -1054,7 +1054,8 @@ Here are the commonly used HTTP methods for RESTful APIs:
 5. DELETE: Remove a resource.
 
 6. OPTIONS: Describe the communication options for the resource.
-HEAD: Retrieve metadata (like headers) about the resource without the body.
+
+7. HEAD: Retrieve metadata (like headers) about the resource without the body.
 
 
 
