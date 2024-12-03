@@ -1043,7 +1043,8 @@ In short, RESTful APIs are a way to make web services more standardized, predict
 
 Here are the commonly used HTTP methods for RESTful APIs:
 
-GET: Retrieve data (e.g., fetch a list or a specific resource).
+1. GET: Retrieve data (e.g., fetch a list or a specific resource).
+
 POST: Create a new resource.
 PUT: Update an existing resource entirely.
 PATCH: Partially update an existing resource.
