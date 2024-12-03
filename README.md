@@ -1039,6 +1039,18 @@ RESTful API is the term used for an API that strictly follows REST principles, i
 summary
 In short, RESTful APIs are a way to make web services more standardized, predictable, and easy to use. They are widely used in modern web and mobile applications for efficient communication between the client and server.
 
+## REST Api methods
+
+Here are the commonly used HTTP methods for RESTful APIs:
+
+GET: Retrieve data (e.g., fetch a list or a specific resource).
+POST: Create a new resource.
+PUT: Update an existing resource entirely.
+PATCH: Partially update an existing resource.
+DELETE: Remove a resource.
+OPTIONS: Describe the communication options for the resource.
+HEAD: Retrieve metadata (like headers) about the resource without the body.
+
 
 
 
