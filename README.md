@@ -1052,7 +1052,8 @@ Here are the commonly used HTTP methods for RESTful APIs:
 4. PATCH: Partially update an existing resource.
 
 5. DELETE: Remove a resource.
-OPTIONS: Describe the communication options for the resource.
+
+6. OPTIONS: Describe the communication options for the resource.
 HEAD: Retrieve metadata (like headers) about the resource without the body.
 
 
