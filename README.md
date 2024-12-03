@@ -1066,6 +1066,8 @@ Here are the commonly used HTTP methods for RESTful APIs:
 
 2. Client-Server Architecture: The client (e.g., a web browser) and server (where the data or service resides) are separate. The client makes requests to the server, which processes them and sends back the response.
 
+3. Uniform Interface: A RESTful API uses a consistent, standardized interface to communicate between the client and the server, typically based on HTTP methods like GET, POST, PUT, DELETE, etc. Resources (data entities) are exposed via URLs.
+
 
 
 
