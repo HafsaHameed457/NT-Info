@@ -1076,6 +1076,8 @@ GET /users/{id} to retrieve a specific user.
 PUT /users/{id} to update a specific user.
 DELETE /users/{id} to delete a user.
 
+5. Representation: When a client requests a resource, the server responds with the resource's representation, often in JSON or XML format. This representation contains the data and potentially links to other resources.
+
 
 
 
