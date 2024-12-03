@@ -1062,7 +1062,9 @@ Here are the commonly used HTTP methods for RESTful APIs:
 
 ## Information of a RESTful API
 
-1. 
+1. Stateless: Each request from a client contains all the information needed to process the request. The server does not store any state between requests. This makes the system scalable and reliable.
+
+2. Client-Server Architecture: The client (e.g., a web browser) and server (where the data or service resides) are separate. The client makes requests to the server, which processes them and sends back the response.
 
 
 
