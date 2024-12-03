@@ -1078,7 +1078,7 @@ DELETE /users/{id} to delete a user.
 
 5. Representation: When a client requests a resource, the server responds with the resource's representation, often in JSON or XML format. This representation contains the data and potentially links to other resources.
 
-
+6. Stateless Communication: Since the server does not store any client session data, each request must contain all the necessary context (e.g., authentication tokens or parameters) to complete the operation.
 
 
 
