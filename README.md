@@ -1060,6 +1060,9 @@ Here are the commonly used HTTP methods for RESTful APIs:
 
 7. HEAD: Retrieve metadata (like headers) about the resource without the body.
 
+## Information of a RESTful API
+
+1. 
 
 
 
