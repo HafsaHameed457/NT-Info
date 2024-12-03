@@ -1068,6 +1068,14 @@ Here are the commonly used HTTP methods for RESTful APIs:
 
 3. Uniform Interface: A RESTful API uses a consistent, standardized interface to communicate between the client and the server, typically based on HTTP methods like GET, POST, PUT, DELETE, etc. Resources (data entities) are exposed via URLs.
 
+4. Resources: In REST, everything is a resource, such as users, products, or posts. Resources are identified by URLs and manipulated using standard HTTP methods. For example:
+
+GET /users to retrieve a list of users.
+POST /users to create a new user.
+GET /users/{id} to retrieve a specific user.
+PUT /users/{id} to update a specific user.
+DELETE /users/{id} to delete a user.
+
 
 
 
