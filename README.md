@@ -1082,6 +1082,7 @@ DELETE /users/{id} to delete a user.
 
 7. Cacheable: Responses from the server can be explicitly marked as cacheable or non-cacheable to optimize performance. This means that clients can store responses and reuse them to avoid repeated server calls, improving efficiency.
 
+8. Layered System: REST allows for intermediaries such as gateways, proxies, and load balancers between the client and the server. These layers can enhance scalability, security, and performance, but they should not affect the API’s core functionality.
 
 
 
