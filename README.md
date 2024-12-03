@@ -1045,7 +1045,7 @@ Here are the commonly used HTTP methods for RESTful APIs:
 
 1. GET: Retrieve data (e.g., fetch a list or a specific resource).
 
-POST: Create a new resource.
+2. POST: Create a new resource.
 PUT: Update an existing resource entirely.
 PATCH: Partially update an existing resource.
 DELETE: Remove a resource.
