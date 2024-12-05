@@ -6,3 +6,7 @@ Runtime requireed to run a function
 
 It is a language which we use to tell a function about how long will an algorithm take to run.
 
+## Algo efficiency
+
+As the elements increases how many operations do we have to do.
+
