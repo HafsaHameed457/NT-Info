@@ -8,6 +8,7 @@ It is a language which we use to tell a function about how long will an algorith
 
      O(N)= n increases no of operations also increases.
      O(1)= Constant time flat line
+     O(N!)= We are adding nested loops for each variable of algo.
 
 ## Algo efficiency
 
